@@ -1,0 +1,16 @@
+{
+  "name": "israels_tech_talk",
+  "version": "1.0.0",
+  "source":"src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js --no-cache",
+    "build": "parcel build src/index.html src/styles/main.scss src/scripts/main.js --no-cache"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "parcel": "^2.12.0"
+  }
+}
